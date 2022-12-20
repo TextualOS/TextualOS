@@ -1,0 +1,10 @@
+(In order)
+
+- Print strings/integers onto the screen
+- Output to a serial port 
+- Working interrupt/exception system
+- Keyboard driver
+- Memory
+- Heap
+- Filesystem
+
