@@ -7,4 +7,6 @@
 - Memory
 - Heap
 - Filesystem
+- Terminal (ls, mkdir, rm, etc.)
+- Very simple GUI
 
