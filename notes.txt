@@ -13,3 +13,16 @@ When the computer turns on, a bunch of initialization stuff happens. Peripherals
 
 --- THE BOOT PROCESS ---
 * The bios will search for and intialize available storage media, then decide which of these to boot from. (look for 0xAA55) signature.
+
+--- Assembly ---
+*.asm is the assembly file extension
+- registers -
+*AX - accumulator usually used in input and output and arithmatic
+*BX - base register used in indexed addressing
+*CX - count register, used to store loop count in iterative sections
+*DX - data register
+
+*index registers
+
+*SI - source index for a string operation
+*DI - destination index
