@@ -1,0 +1,15 @@
+=== The bootloader ===
+When the computer turns on, a bunch of initialization stuff happens. Peripherals are identified, finds buses available, etc. The thing we are interested in is the BIOS
+
+-- BIOS ---
+* A bios is a special program that is embedded in BIOS chip
+* Upon boot, the bios program is loaded into the CPU, and begins the bootstrapping process of getting the system ready to do higher level stuff.
+* Call this boot-stage-0
+* The end of this process involves finding a bootable device, i.e a device that contains a boot sector
+
+--- BOOT SECTOR ---
+* The first 512 bytes of a bootable disk is called the bootsector or the Master Boot Record.
+* The last word of the sector must contain the signature 0xAA55
+
+--- THE BOOT PROCESS ---
+* The bios will search for and intialize available storage media, then decide which of these to boot from. (look for 0xAA55) signature.
